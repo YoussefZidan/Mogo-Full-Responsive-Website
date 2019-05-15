@@ -3,7 +3,6 @@ Live Preview: https://youssefzidan.github.io/Mogo-Full-Responsive-Website/. <br>
 
 <h3>Website Includes:</h3>
 <ul>
-  <li>Full Resposive</li>
   <li>Smooth Scrolling</li>
   <li>Spy Scroll</li>
 </ul>
