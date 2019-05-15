@@ -54,6 +54,15 @@ html {
   border-radius: 0.5em;
 }
 
+@media (max-width: 768px) {
+  .main-header .navbar-collapse {
+    background-color: white;
+  }
+  .main-header .navbar-collapse a {
+    color: #232323 !important;
+  }
+}
+
 .carousel {
   position: relative;
 }

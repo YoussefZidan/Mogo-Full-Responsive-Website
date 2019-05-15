@@ -61,7 +61,7 @@ $gray: #a8a8a8;
   background-color: #fff;
 }
 .section-header {
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 70%;
   }
   h4 {
@@ -85,6 +85,14 @@ html {
   .active {
     background-color: $blue;
     border-radius: 0.5em;
+  }
+  .navbar-collapse {
+    @media (max-width: 768px) {
+      background-color: white;
+      a {
+        color: #232323 !important;
+      }
+    }
   }
 }
 
@@ -121,7 +129,7 @@ html {
       }
     }
     @media (max-width: 667px) {
-      button{
+      button {
         display: none;
       }
     }
@@ -129,7 +137,7 @@ html {
       h1 {
         font-size: 2em;
       }
-      button{
+      button {
         display: none;
       }
     }
@@ -183,19 +191,10 @@ html {
     .overlay-text {
       opacity: 0;
       position: absolute;
-      top: 40%;
-      left: 28%;
-
-      @media (max-width: 992px) {
-        transform: scale(0.5);
-        top: 30%;
-        left: 18%;
-      }
-      @media (max-width: 768px) {
-        transform: scale(1);
-        left: 35%;
-        top: 40%;
-      }
+      width: 70%;
+      height: 70%;
+      top: 35%;
+      left: 15%;
       i {
         font-size: 2em;
       }
@@ -263,7 +262,7 @@ html {
     top: 470px;
     left: 54vw;
     display: block;
-    @media (max-width:678px){
+    @media (max-width: 678px) {
       display: none;
     }
   }
@@ -304,18 +303,11 @@ html {
       color: $red;
       opacity: 0;
       position: absolute;
+      width: 70%;
+      height: 70%;
       top: 50%;
-      left: 23%;
-      @media (max-width: 992px) {
-        transform: scale(0.7);
-        left: 5px;
-        top: 42%;
-      }
-      @media (max-width: 768px) {
-        transform: scale(1.2);
-        left: 33%;
-        top: 50%;
-      }
+      left: 15%;
+      justify-content: center;
       .icon-container {
         text-align: center;
         align-items: center;
@@ -337,7 +329,7 @@ html {
   }
   .brands {
     background-color: $lightGray;
-    @media (max-width:678px){
+    @media (max-width: 678px) {
       display: none;
     }
     img {
@@ -415,7 +407,7 @@ html {
     top: 6vw;
     left: -15px;
     display: inline-block;
-    @media (max-width: 992px){
+    @media (max-width: 992px) {
       display: none;
     }
   }
@@ -488,7 +480,6 @@ html {
           height: 100%;
           width: 100%;
           object-fit: cover;
-
         }
       }
     }
